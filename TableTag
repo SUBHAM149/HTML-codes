@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        Heading
+      </caption>
+      <thead>
+        <tr>
+          <th>head</th>
+          <th>head</th>
+          <th>head</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>tableData</td>
+          <td>tableData</td>
+          <td>tableData</td>
+        </tr>
+        <tr>
+          <td>tableData</td>
+          <td>tableData</td>
+          <td>tableData</td>
+        </tr>
+        <tr>
+          <td>tableData</td>
+          <td>tableData</td>
+          <td>tableData</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>footer</th>
+          <th>footer</th>
+          <th>footer</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <table border="2" cellspacing="20px" cellpadding="10px">
+      <tr>
+        <th>col1</th>
+        <th>col2</th>
+        <th>col3</th>
+      </tr>
+      <tr>
+        <td>r1c1</td>
+        <td>r1c2</td>
+        <td>r1c3</td>
+      </tr>
+      <tr>
+        <td>r2c1</td>
+        <td>r2c2</td>
+        <td>r2c3</td>
+      </tr>
+      <tr>
+        <td>r3c1</td>
+        <td>r3c2</td>
+        <td>r3c3</td>
+      </tr>
+      <tr>
+        <td>r4c1</td>
+        <td>r4c2</td>
+        <td>r4c3</td>
+      </tr>
+      <tr>
+        <td>r5c1</td>
+        <td>r5c2</td>
+        <td>r5c3</td>
+      </tr>
+    </table>
+    <!-- table with rowspan attribute to merge the cells in the rows of a table -->
+    <table border="1">
+      <tr>
+        <td>data</td>
+        <td>data</td>
+        <td rowspan="3">data</td>
+      </tr>
+      <tr>
+        <td>data</td>
+        <td>data</td>
+      </tr>
+      <tr>
+        <td>data</td>
+        <td>data</td>
+      </tr>
+    </table>
+
+    <!-- table with colspan attribute to merge cells in the columns of a table -->
+
+    <table border="1">
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td colspan="2">text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td colspan="3">text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+    </table>
+
+    <!-- table with colgroup and col tag -->
+    <table border="1">
+      <colgroup>
+        <col style="width: 300px" />
+        <col style="background-color: red" />
+      </colgroup>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+    </table>
+    <table border="1">
+      <colgroup>
+        <col span="3" style="background-color: greenyellow; width: 150px" />
+      </colgroup>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+        <td>text</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <colgroup>
+        <col style="width: 200px; background-color: aqua" />
+        <col style="width: 200px; background-color: red" />
+        <col style="visibility: collapse" />
+      </colgroup>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Profile Pic</th>
+      </tr>
+      <tr>
+        <td>Asif</td>
+        <td>24</td>
+        <td>Kolkata</td>
+        <td>
+          <img
+            src="../ASSETS/images/AsifVirat.jpeg"
+            alt=""
+            height="100px"
+            width="100px"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Krishna</td>
+        <td rowspan="2">21</td>
+        <td>Nasik</td>
+        <td>
+          <img
+            src="../ASSETS/images/krishna.jpeg"
+            alt=""
+            height="100px"
+            width="100px"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Dheeraj</td>
+        <td>Sambhaji Nagar</td>
+        <td>
+          <img
+            src="../ASSETS/images/dheeraj.jpeg"
+            alt=""
+            height="100px"
+            width="100px"
+          />
+        </td>
+      </tr>
+    </table>
+    <table border="1" style="width: 100%">
+      <colgroup>
+        <col span="2" />
+
+        <col style="background-color: green" />
+      </colgroup>
+      <tr>
+        <th>NAME</th>
+        <th>SUBJECT</th>
+        <th>MARKS</th>
+        <th>RESULT</th>
+      </tr>
+      <tr>
+        <td>Rani</td>
+        <td>Physics</td>
+        <td>100</td>
+        <td rowspan="3">PASS</td>
+      </tr>
+      <tr>
+        <td>Sweety</td>
+        <td>Maths</td>
+        <td>99</td>
+      </tr>
+      <tr>
+        <td>Satyam</td>
+        <td>Biology</td>
+        <td>200</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
