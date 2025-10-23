@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logo</title>
+    <link rel=""
+</head>
+<body>
+    <h1>Attribut:</h1>
+    <!--global attributes-->
+    <span title="SUBHAM BEHERA">SB</span>
+    <h1 title="world wide web">www</h1>
+    <h1></h1>
+   
+</body>
+</html>
