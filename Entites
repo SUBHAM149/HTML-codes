@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---heading tags-->
+    <h1>Heading tag</h1>
+    <h1>head 1</h1>
+    <h2>head 2</h2>
+    <h3>head 3</h3>
+    <h4>head 4</h4>
+    <h5>head 5</h5>
+    <h6>head 6</h6>
+    <!---pree tag-->
+    <div>12
+
+    3</div>
+    <pre>
+        function test(){}
+    </pre>
+    <pre>
+        1
+        2
+        3
+    </pre>
+    <pre>1 2    3</pre>
+
+    <!---strong tag-->
+    <strong>demo</strong>
+    <p><i>subham behera</i><strong>kandada</strong> <strike>antara</strike> ada balasore</p>
+
+    <h4>This sirt is now available in <ins>999 frs</ins>not for<del>1999rs</del></h4>
+    <h5>Our sho[ is now available in <ins>ameerpet</ins> not in <del>bharatnagar</del></h5>
+
+    <!----subscript tag and supscript tag-->
+    <span>H<sub>2</sub>0</span>
+    <span>C O<sub>2</sub></span>
+    <div>CaCo<sub>3</sub></div>
+    <div>KMNO<sub>4</sub></div>
+
+    <div>(A+B)<SUP>2</SUP>=A<SUP>2</SUP>+B<sup>2</sup>+ 2AB</div>
+    
+    <!---blockqoute tag--->
+    <blockquote>"Mind is the bigiest illusion"</blockquote>
+    <p>"Dont judge a book by its cover"</p>
+
+    <!---!html entities----tag--->
+    <!---?named entity-->
+    <span>
+        <h1>Named Entities</h1>
+        &amp;
+        &lt;
+        &gt;
+        &copy;
+        &euro;
+        &divide;
+        &larr;
+        &rarr;
+    </span>
+
+   <!---?HTML Entities by using decimal values-->
+   <h1>Decimal Named entites</h1>
+   <span>
+    &#38;
+    &#60;
+    &#62;
+    &#169;
+    &#8364;
+    &#247;
+    &#8592;
+    &#8594;
+   </span>
+
+   <!--Html hexa decimal values-->
+   <h1>Hexa Decimal values</h1>
+   <span>
+    &#x26;
+    &#x3c;
+    &#x3e;
+    &#xA9;
+    &#x20AC;
+    &#xf7;
+    &#x2190;
+    &#x2192;
+   </span>
+
+   <!---EMOJI DECIMAL-->
+   <h1>Emoji decimal</h1>
+   <span>
+    &#128018;
+    &#x2764;
+    &#x2766;
+    &#x1F60F;
+    &#x1f921;
+    </span>
+
+    
+
+
+
+
+</body>
+</html>
