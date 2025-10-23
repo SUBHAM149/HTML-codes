@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>input types</title>
+  </head>
+  <body>
+    <!-- !NOTE : To navigate to another page with get method is possible and while using POST method in html alone, navigation is not possible. It will be possible only with the help of JavaScript APIs like window.location.href -->
+     
+    <form action="login.html" method="get">
+      <input type="text" placeholder="Enter Name" name="user" required />
+      <br />
+      <input type="password" placeholder="Enter password" name="pwd" />
+      <br />
+      <input type="number" placeholder="Enter Age" name="age" />
+      <br />
+      <input
+        type="tel"
+        placeholder="Enter phone number"
+        maxlength="10"
+        name="ph"
+      />
+      <br />
+      <input type="email" placeholder="Enter your mail ID" name="mail" />
+      <br />
+      <input type="date" name="DOB" />
+      <br />
+      <label for="gender">GENDER:</label>
+      <input type="radio" name="gender" />Male
+      <input type="radio" name="gender" />Female
+      <br />
+      <label for="cities">Cities :</label>
+      <input type="checkbox" name="Bengaluru" id="" checked />Bengaluru
+      <input type="checkbox" name="Hyderbad" id="" />Hyderbad
+      <input type="checkbox" name="Pune" id="" />Pune
+      <input type="checkbox" name="Delhi" id="" />Delhi
+      <br />
+      <label for="time">Select Time :</label>
+      <input type="time" name="time" id="" />
+      <br />
+      <input type="file" name="file" id="" />
+      <br />
+      <input type="hidden" name="userName" id="123" />
+      <br />
+      <input type="range" name="" id="" />
+      <br />
+      <button>
+        <input
+          type="image"
+          src="../Assets/Images/html logo.webp"
+          alt=""
+          height="20px"
+          width="50px"
+        />
+      </button>
+      <!-- Different ways of creating buttons -->
+      <!-- <input type="submit" value="SUBMIT" /><br />
+      <input type="reset" value="RESET" /><br />
+      <input type="button" value="SignIn" /> -->
+
+      <button type="submit">Sign up</button>
+
+      <button type="reset">RESET</button>
+    </form>
+  </body>
+</html>
