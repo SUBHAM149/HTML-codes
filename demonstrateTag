@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Demonstrating Fieldsets with Tables</h1>
+    <p>This example shows how fieldsets can be used to group related tables and form elements</p>
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+        <table border="1">
+            <tr>
+                <th colspan="2"><center>Contact Details</center></th>
+                
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="user"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="user"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="user"></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="text" name="user"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+           <legend>Adress Information</legend>
+               <table border="1">
+            <tr>
+                      <th colspan="2">Mailing Adress</th>
+        
+            </tr>
+            <tr>
+                       <td>Street:</td>
+                 <td><input type="text" name="user"></td>
+            </tr>
+            <tr>
+        <td>City:</td>
+        <td><input type="text" name="user"></td>
+          </tr>
+     <tr>
+        <td>State/Province:</td>
+        <td><input type="text" name="user"></td>
+     </tr>
+     <tr>
+        <td>Postal:</td>
+        <td><input type="text" name="user"></td>
+     </tr>
+     <tr>
+        <td>Country:</td>
+        <td><input type="text" name="user"></td>
+     </tr>
+    </table>
+
+
+    </fieldset>
+    <fieldset>
+        <legend>
+            Employment History
+        </legend>
+      <p>Please list your last two employers</p>  
+        <table border="1">
+        <tr>
+            <th colspan="2"><center>Most Recent Employer</center></th>
+        </tr>
+        <tr>
+            <td>Company Name:</td>
+            <td><input type="text" name="user"></td>
+        </tr>
+        <tr>
+            <td>Position:</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Years Employed:</td>
+            <td></td>
+        </tr>
+        </table>
+    </br>
+        <table border="1">
+        <tr>
+            <th colspan="2"><center>Previous Employer</center></th>
+        </tr>
+        <tr>
+            <td>Company Name:</td>
+            <td><input type="text" name="user"></td>
+        </tr>
+        <tr>
+            <td>Position:</td>
+            <td><input type="text" name="user"></td>
+        </tr>
+        <tr>
+            <td>Years Employed:</td>
+            <td><input type="text" name="user"></td>
+        </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Submit Application</legend>
+      <table border="1">
+      <tr>
+        <td><input type="checkbox" />I certify that all Information provided is correct</td>
+      </tr>
+      <tr>
+        <th>
+        <input type="submit" value="Submit Application" />
+        <input type="reset" value="Clear Form" />
+        </th>
+      </tr>
+      </table>
+    </fieldset>
+    
+    <h1>HTML Input Fields Demonstration</h1>
+    <p>This Page demonstrates various HTML input fields without using a form element. While forms are typically used to submit data, input field can be used independently for various UI interactions.</p>
+    <fieldset>
+        <legend>Text Input Types</legend>
+
+        <h2>Basic Text Input</h2>
+        <label for="user">Text Input:</label>
+        <input type="text" placeholder="Enter some text" /><br>
+
+        <h2>Password Input</h2>
+        <label for="user">Password Input:</label>
+        <input type="text" placeholder="Enter password">
+
+        <h2>Email Input</h2>
+        <label for="user">Email Input:</label>
+        <input type="text" placeholder="example@domai.com">
+
+        <h2>Search Input</h2>
+        <label for="user">Search Input:</label>
+        <input type="text" placeholder="Search">
+
+        <h2>URL Input</h2>
+        <label for="user">URL Input:</label>
+        <input type="text" placeholder="https.//exmple.com"/>
+
+        <h2>Telephone Input</h2>
+        <label for="user">Telephone Input:</label>
+        <input type="text" placeholder="(768)-200-0235">
+    </fieldset>
+
+    <fieldset>
+        <legend>Numeric Input Types</legend>
+
+        <h2>Nuber Input</h2>
+        <label for="user">Number Input:</label>
+        <input type="number" placeholder="0">
+
+        <h2>Rnger Slider</h2>
+        <label for="user">Range Input(Slider)</label>
+        <input type="range" >50
+    </fieldset><br>
+
+    <fieldset>
+     <legend>Date and Time Input Types</legend>
+     <h2>Data Input</h2>
+     <label for="user">Date Input:</label>
+     <input type="date" name="date">
+
+     <h2>Time Input</h2>
+     <label for="user">Time Input</label>
+     <input type="time" name="time">
+
+     <h2>Date Time-Local Input</h2>
+     <label for="user">Date Time-Local Input</label>
+     <input type="datetime-local" name="datetime-local" id="">
+
+     <h2>Month Input</h2>
+     <label for="user">Month Input</label>
+     <input type="month" name="month">
+
+     <h2>Week input</h2>
+     <label for="user">Week Input</label>
+     <input type="week" name="week">
+    </fieldset>
+</body>
+</html>
