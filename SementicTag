@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags</title>
+</head>
+<body>
+    <header>
+        this header tag is used for main heading of the webpage
+        <h1>Heading</h1>
+    </header>
+    <nav>
+        navBar
+    </nav>
+    <section>
+        section tag used to include other block and inline level elements
+    </section>
+
+    <!-- the difference between p and article tag -->
+     <p>
+        this is paragraph  
+        <!-- do not take block level elements inside p tag. If took, browser will remove it from p tag -->
+        <div>I m div tag</div>
+     </p>
+<!-- article is a independent tag that can any block and inline level elements -->
+     <article>
+        this is article tag
+        <div>I m div tag</div>
+     </article>
+
+     <!-- main tag is used to create the main content -->
+      <main>
+        main content
+      </main>
+
+      <!-- aside tag is used to give the content in any side of the page. Either left or right side of the page -->
+       <aside>
+        this is aside tag
+       </aside>
+
+       <!-- figure and figcaption tags -->
+        <!-- previous use of image tag -->
+        <div><img src="" alt=""></div>
+        <!-- after -->
+         <figure>
+            <img src="../Assets/Images/krishna photo.jpeg" alt=" Hii I am Krishna" title="Dhoni image india">
+            <figcaption>Krishna from universe</figcaption>
+
+         </figure>
+
+         <details>
+            <summary>HTML</summary>
+            <p>Hyper Text Markup Language</p>
+         </details>
+
+         <footer>
+            This footer tag is used at the end of the page.
+            <ul>
+                <li>Home</li>
+                <li>Contact Us</li>
+                <li>E-mail</li>
+                <li>Phone number</li>
+            </ul>
+         </footer>
+         <audio controls>
+            <source src="../Assets/Audios/bgmi_india(1).mp3" type="">
+         </audio>
+         <video controls="50%"></video>
+</body>
+</html>
+<!--Give an exampla in abbrivaiton tag and time tag 
+time tag,abbtivation,sight tag-->
+
