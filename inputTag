@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form  >
+        <h1>SIGN-UP FORM</h1>
+      <div>
+        <label for="">Username</label>
+        <input 
+        type="text" 
+        name="user" 
+        placeholder="Enter your name" 
+        required readonly="SUBHAM"/>
+      </div>
+      <div>
+        <label for="pwd">Create Password:</label>
+        <input
+          type="password"
+          name="passcode"
+          id="pwd"
+          placeholder="Create Password"
+        />
+      </div>
+      <div>
+        <label for="pwd1">Confirm Password:</label>
+        <input
+          type="password"
+          name="passcode_confirm"
+          id="pwd1"
+          placeholder="Create Password"
+        />
+      </div>
+      <label for="ph">
+        Enter Phone number
+      </label>
+      <input type="tel" name="ph" id="ph" placeholder="Enter phone number"  maxlength="10">
+      </div>
+      <div>
+        <label for="age">Age :</label>
+        <input type="number" name="age" id="age" placeholder="Enter Age" min="18" max="80">
+      </div>
+      <div>
+        <label for="DOB">DOB:</label>
+        <input type="date">
+      </div>
+      <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender">Male
+        <input type="radio" name="gender" id="gender">Female
+      </div>
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your mail ID">
+      </div>
+      <div>
+        <label for="Languages">Languages:</label>
+        <input type="checkbox" name="lang" id="lang">English
+        <input type="checkbox" name="lang" id="lang">Telugu
+        <input type="checkbox" name="lang" id="lang">Hindi
+        <input type="checkbox" name="lang" id="lang">Marathi
+        <input type="checkbox" name="lang" id="lang">Odia
+        <input type="checkbox" name="lang" id="lang">Tamil
+        <input type="checkbox" name="lang" id="lang">Kannada
+        <input type="checkbox" name="lang" id="lang">Punjabi
+        <input type="checkbox" name="lang" id="lang">Malayalam
+        <input type="checkbox" name="lang" id="lang">Urdu
+      </div>
+      <div>
+        <label for="address">Address:</label>
+        <textarea name="address" id="adrs" cols="80" rows="6"></textarea>
+      </div>
+     
+    </form>
+    <a href="./login.html" target="_blank">
+        <button onclick="alert('Registration done successfully')">sign up</button>
+      </a>
+  </body>
+</html>
