@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- heading tags -->
+    <h1>head 1</h1>
+    <h2>head 2</h2>
+    <h3>head 3</h3>
+    <h4>head 4</h4>
+    <h5>head 5</h5>
+    <h6>head 6</h6>
+
+    <!-- pre tag -->
+    <div>1 2 3</div>
+    <pre>
+        function test(){}
+     </pre
+    >
+    <pre>
+        1
+        2
+        3
+    </pre>
+    <pre>
+        1 2                    3
+    </pre>
+
+    <!-- strong,i,em,b,u,ins,del,strike tags-->
+    <strong> demo </strong>
+    <p>
+      Born in <em> Ranchi </em>, Dhoni made his first class debut for
+      <i>Bihar</i> in 1999. He made his debut for the Indian cricket team on 23
+      December 2004 in an ODI against Bangladesh and played his first test a
+      year later against <strong>Sri Lanka</strong>. In 2007, he became the
+      captain of the ODI side before taking over in all formats by <b>2008</b>.
+      Dhoni retired from test cricket in 2014 but continued playing in limited
+      overs cricket till <ins>2019</ins>. He has scored
+      <strike>17,266</strike> runs in international cricket including
+      <u>10,000</u> plus runs at an average of more than <del>50</del> in ODIs.
+    </p>
+    <h4>
+      This shirt is now available for <ins>999 rs</ins> not for
+      <del>1999 rs</del>
+    </h4>
+    <h5>
+      Our shop is now available in <ins>Ameerpet</ins> not in
+      <del>Panjagutta</del>
+    </h5>
+    <!-- subscript tag and supscript tag -->
+    <span> H <sub>2</sub>O </span>
+    <span> C O<sub>2</sub> </span>
+    <div>CaCo<sub>3</sub></div>
+    <div>KMNO <sub>4</sub></div>
+    <div>H <sub>2</sub>SO <sub>4</sub></div>
+    <div>C <sub>6</sub> H <sub>12</sub> O <sub>6</sub></div>
+
+    <div>(A+B) <sup>2</sup> = A <sup>2</sup>+B <sup>2</sup> + 2AB</div>
+    <div>A <sup>2</sup> = B <sup>2</sup> + C <sup>2</sup></div>
+
+    <!-- blockquote tag -->
+    <blockquote>"Beauty is in the heart not in the face" -- Ritesh</blockquote>
+    <p>"Beauty is in the heart not in the face" -- Ritesh</p>
+    <blockquote>"DO OR DIE" -- Rani</blockquote>
+    <blockquote>"Eat five start , do nothing" -- Bhagya</blockquote>
+    <blockquote>"Enjoy every moment" --Rahul</blockquote>
+
+    <!-- span tag used for inline container to add style,events -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore autem
+      dicta, numquam eaque est tempore
+      <span style="color: red"> debitis</span> nulla, dignissimos magni ipsam
+      tenetur soluta. Aspernatur ad excepturi corporis temporibus, dolorum ea
+      delectus.
+    </p>
+    <h2>
+      Click <span style="color: blue; text-decoration: underline">here</span>
+    </h2>
+
+    <!-- label tag used in form tag for labelling  -->
+    <label for=""></label>
+    <form action="">
+      <label>User Name</label>
+    </form>
+    <label>User Name</label>
+    <div>
+      <span> </span>
+      <button></button>
+    </div>
+    <div>
+      <span>test</span>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <button>sign up</button>
+    </div>
+    <div>
+      <button>login</button>
+    </div>
+    <div><button>login</button></div>
+  </body>
+</html>
