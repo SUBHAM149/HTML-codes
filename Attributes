@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Attribute:</h1>
+    <!---Global attributes-->
+    <h1>Global Attributes</h1>
+    <span title="SUBHAM BEHERA" id="spanId11">SB</span>
+    <H1 title="cascading style sheets" class="h1CLs">css</H1>
+    <p title="para" class="pClass">p</p>
+
+    <!---element specific attributes-->
+    <h1>element specific attributes</h1>
+    <input type="text"/>
+    <input value=""/>
+
+    <!---boolen attributes-->
+    <h1>boolen attributes</h1>
+
+    <input type="text"disabled/>
+    <input type="text"/>
+
+    <!--Event attributes-->
+    <h1>Event attributes</h1>
+    <button onclick="functionname">
+
+
+
+
+
+
+
+</body>
+</html>
