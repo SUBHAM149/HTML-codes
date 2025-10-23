@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+<body>
+    <form action="subham" method=""><!--Here you [Put Get Or Post]-->
+        <label for="user name">User Name:</label>
+        <input type="text">
+
+        <div>
+            <label for="username">UserName:</label>
+            <input
+            type="text"
+            placeholder="Enter your name"
+            id="username"
+            name="user"/>
+        </div>
+        
+        <div>
+            <label for="pwd">Enter Your Password:</label>
+            <input
+            type="password"
+            placeholder="Enter your password"
+            id="password"
+            name="password"/>
+        </div>
+       
+
+        <input type="submit" value="SUBMIT"/>
+    </form>
+</body>
+</html>
