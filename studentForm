@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- select and option tags are used to create dropdown -->
+      <select name="colors" id="colors">
+        <option value="Select color">Select color</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+      </select>
+      <!-- textarea is used for entering text content for different purposes like, address, feedback etc...-->
+      <!-- <textarea name="" id="" cols="60" rows="30"> </textarea> -->
+
+      <!-- fieldset and legend tag -->
+      <fieldset>
+        <legend>Educational Details</legend>
+        <div>
+          <label for="">STUDENT NAME :</label
+          ><input type="text" placeholder="Enter Your Name" />
+        </div>
+        <div>
+          <label for="YOP">YEAR OF PASS OUT: </label><input type="date" />
+        </div>
+        <div>
+          <label for="qualification">QUALIFICATION :</label
+          ><input type="checkbox" />Graduate<input type="checkbox" />Post
+          graduate
+        </div>
+
+        <div>
+          <label for="per">PERCENTAGE / CGPA :</label><input type="text" />
+        </div>
+        <input type="submit" value="SUBMIT" />
+        <input type="reset" value="RESET" />
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Personnel Details</legend>
+        <table>
+          <tr>
+            <td>
+              <label for="place">PLACE</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                placeholder="Enter your place name"
+                name="user"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="mail">E-MAIL</label></td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="Enter Mail ID"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="ph">PHONE</label>
+            </td>
+            <td>
+              <input
+                type="tel"
+                name="ph"
+                id=""
+                placeholder="Enter Phone Number"
+                maxlength="10"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender">GENDER</label>
+            </td>
+            <td>
+              <input type="radio" name="gender" id="" />Male
+              <input type="radio" name="gender" id="" />Female
+            </td>
+          </tr>
+          <tr>
+            <td><label for="profilePic">IMAGE PROFILE </label></td>
+            <td>
+                <input type="image" src="../Assets/Images/krishna photo.jpeg" alt="" height="100px">
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="resume">UPLOAD RESUME</label>
+            </td>
+            <td>
+                <input type="file" name="resume" id="">
+            </td>
+          </tr>
+        </table>
+        <input type="submit" value="SUBMIT" />
+        <input type="reset" value="RESET" />
+      </fieldset>
+    </form>
+    <!-- datalist tag used to create manual suggestions-->
+     <input list="laptops">
+     <datalist id="laptops">
+        <option value="hp">hp</option>
+        <option value="dell">dell</option>
+        <option value="lenovo">lenovo</option>
+        <option value="macbook">macbook</option>
+        <option value="Asus">Asus</option>
+     </datalist>
+  </body>
+</html>
