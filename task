@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+            <table border="1" style="width: 100%; border-collapse: collapse;" >
+            <tr>
+                <th colspan="6"><center>Personal Details</center></th>
+                
+            </tr>
+            <tr>
+                <td colspan="">First Name</td>
+                <td><input type="text" name="user" id=""></td>
+                <td colspan="2">Last Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth</td>
+                <td><input type="date" name="user"></td>
+                <td colspan="2">Gender</td>
+                <td><input type="radio">Male
+                    <input type="radio">Female
+                    <input type="radio">Other
+                </td>
+            </tr>
+            <tr>
+                <td>Nationality</td>
+                <td><input type="text" name="user"></td>
+                <td colspan="2">Aadhar/ID No.</td>
+                <td><input type="text"></td>
+            </tr>
+        </table><br>
+      <table border="1" style="width:100%; border-collapse: collapse;">
+            <tr>
+                <th colspan="6"><center>Contact Details</center></th>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text"></td>
+                <td>MobileNo</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td >Adress Line 1</td>
+                <td colspan="3" ><input type="text" style="width: 99%;"></td>
+                
+            </tr>
+            <tr>
+                <td colspan="">Adress Line 2</td>
+                <td colspan="3" ><input type="text" style="width: 99%;"></td>
+                
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text"></td>
+                <td>Pin Code</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text"></td>
+                <td>Country</td>
+                <td><input type="USER" name=""></td>
+            </tr>
+      </table><br>
+     <table border="1" style="width:100%; border-collapse: collapse;">
+            <tr>
+                <th colspan="6"><center>Course Section</center></th>
+            </tr>
+            <tr>
+                <td>Program Type</td>
+                <td><select name="" id="">
+                <option>--Select Program--</option>
+                <option>Java</option>
+                <option>JavaScript</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                </select></td>
+
+                <td>Prefered Batch</td>
+                <td><select name="" id="">
+                <option>--Select Time--</option>
+                <option>7.00pm</option>
+                <option>8.00pm</option>
+                <option>9.00pm</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td><select name="" id="" style="width:300px;">
+                <option>--Select Course--</option>
+                <option>Data Science</option>
+                <option>B.Tech</option>
+                <option>Computer Science</option>
+                <option>M.Tech</option>
+                </select></td>
+                <td>Mode</td>
+                <td><input type="radio">Classroom
+                <input type="radio">Classroom
+                <input type="radio">Classroom</td>
+            </tr>
+            <tr>
+                <td>Preferred Start Date</td>
+                <td><input type="date"></td>
+                <td>Additional Modules</td>
+                <td><input type="checkbox">Aptitude
+                <input type="checkbox">Soft Skills
+                <input type="checkbox">Placement Assistance
+                </td>
+            </tr>
+
+
+     </table>
+
+
+</body>
+</html>
