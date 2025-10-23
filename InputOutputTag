@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input types</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- text type used to enter the text content -->
+      <input type="text" placeholder="Enter name" name="user" />
+      <!-- number type used to enter numbers like age or any no. -->
+      <input type="number" name="num" id="" placeholder="Enter number" />
+      <!-- mail is used to enter only mail address -->
+      <input type="email" name="mail" id="" placeholder="Enter mail..." />
+      <!-- tel type used to enter phone numbers -->
+      <input
+        type="tel"
+        name="telNum"
+        id=""
+        placeholder="Enter the phone number..."
+      />
+      <input type="submit" value="SUBMIT" />
+    </form>
+    <form action="">
+      <div>
+        <label for="">Student Name</label>
+        <input type="text" placeholder="Enter student name" name="stuName" />
+      </div>
+      <div>
+        <label for="">AGE</label>
+        <input type="number" name="AGE" />
+      </div>
+      <div>
+        <label for="">email:</label>
+        <input type="email" name="mail" />
+      </div>
+      <div>
+        <label for="gender">GENDER :</label>
+        <input type="radio" name="gender" id="" />MALE
+        <input type="radio" name="gender" id="" />FEMALE
+      </div>
+      <div>
+        <label for="courses">COURSES:</label>
+        <input type="checkbox" name="java" id="" />JAVA
+        <input type="checkbox" name="javascript" id="" />JAVASCRIPT
+        <input type="checkbox" name="python" id="" />PYTHON
+      </div>
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </body>
+</html>
