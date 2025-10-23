@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <a href="">link</a>
+        <button>login</button>
+        <span>span</span>
+        <img src="" alt=""/>
+        <input type="text"/>
+        <strong>subham</strong>
+        <b>bold</b>
+        <u>underline</u>
+
+        <p>para</p>
+        <h1>head</h1>
+        <section>section</section>
+        <ul>
+            <li>data</li>
+            <li>data</li>
+            <li>data</li>
+            <li>data</li>
+            <li>data</li>
+        </ul>
+        <ul>
+            <div>div</div>
+            <pre>pre</pre>
+            <article>article</article>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <a href="">company logo</a>
+            </li>
+            <li>
+                <a href="">home</a>
+            </li>
+            <li>
+                <a href="">items</a>
+            </li>
+            <li>
+                <a href="">contac us</a>
+            </li>
+            <li>
+                <a href="">
+                    <button>login</button>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div Tag</title>
+  </head>
+  <body>
+    <!-- div tag basically used as a container in which one can add any type of elements -->
+    <h1>
+      div tag is block level element used as a container to wrap html elements
+    </h1>
+    <div>
+      <!-- adding inline level elements -->
+      <a href="">link</a>
+      <button>login</button>
+      <span>span</span>
+      <img src="" alt="" />
+      <input type="text" />
+      <strong>data</strong>
+      <b>bold</b>
+      <u>underline</u>
+      <!-- adding block level elements -->
+      <p>para</p>
+      <h1>head</h1>
+      <section>section</section>
+      <ul>
+        <li>data</li>
+        <li>data</li>
+        <li>data</li>
+        <li>data</li>
+      </ul>
+      <div>div</div>
+      <pre>pre</pre>
+      <article>article</article>
+    </div>
+    <!-- div tag used a container for navigation purpose -->
+    <div>
+      <nav>
+        <div>
+          <ul>
+            <li>
+              <a href="">Company logo</a>
+            </li>
+            <li>
+              <a href=""> home </a>
+            </li>
+            <li>
+              <a href=""> items </a>
+            </li>
+            <li>
+              <a href=""> contact us </a>
+            </li>
+            <li>
+              <a href="">
+                <button>login</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- div tag used as a container to render images -->
+    <div>
+      <img
+        src=".././ASSETS/images/amazon.png"
+        alt=""
+        height="300px"
+        width="600px"
+      />
+      <img
+        src=".././ASSETS/images/dhoni.jpeg"
+        alt=""
+        height="300px"
+        width="600px"
+      />
+      <img
+        src="../ASSETS/images/Heidi.jpeg"
+        alt=""
+        height="300px"
+        width="600px"
+      />
+      <img
+        src=".././ASSETS/images/html logo1.png"
+        alt=""
+        height="300px"
+        width="600px"
+      />
+    </div>
+
+    <!-- !NOTE : Now a days semantic tags are used to replace div tags -->
+  </body>
+</html>
+
+divTag.html
+Displaying divTag.html.
