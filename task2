@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Student Registration Form</h1>
+    <form>
+    <table border="1" cellspacing="0px" cellpadding="2px" style="width: 100%;">
+        <colgroup>
+            <col style="width: 150px; align-items: center;">
+            <col style="width: 300px;">
+            <col style="width: 150px;">
+            <col style="width: 300px;">
+
+        </colgroup>
+        <tr>
+            <th colspan="4">Personal Details</th>
+            
+        </tr>
+        <tr>
+            <td> Full Name</td>
+            <td> <input type="text" name="name"></td>
+            <td> Last Name</td>
+            <td><input type="text" name="name"</td>
+        </tr>
+        <tr>
+            <td> Date of Birth</td>
+            <td> <input type="date" name="date" id=""> </td> 
+            <td> Gender</td>
+            <td> <input type="radio" name="gender" id=""><label>Male</label>
+                <input type="radio" name="gender" id=""><label>Female</label>
+                <input type="radio" name="gender" id=""><label>Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Nationality</td>
+            <td> <input type="text" name="nation" id=""> </td>
+            <td> Adhaar/ID No.</td>
+            <td> <input type="number" name="idno" id=""> </td>
+        </tr>
+    </table>
+<br>
+    <table border="1" cellspacing="0px" cellpadding="2px" style="width: 100%;">
+        <colgroup>
+            <col style="width: 180px; align-items: center;">
+            <col style="width: 300px;">
+            <col style="width: 130px;">
+            <col style="width: 250px;">
+
+        </colgroup>
+        <tr>
+            <th colspan="4">Contact Details</th>
+            
+        </tr>
+        <tr>
+            <td> Email</td>
+            <td> <input type="email" name="name"></td>
+            <td> Mobile Number</td>
+            <td><input type="tel" name="name"</td>
+        </tr>
+        <tr>
+            <td> Adress Line 1</td>
+            <td colspan="3"> <input type="text" name="Adress" id="" style="width: 100%;"> </td> 
+            
+        </tr>
+        <tr>
+            <td> Adress Line 2</td>
+            <td colspan="3"> <input type="text" name="Adress" id="" style="width: 100%;">
+               </td>
+            
+        </tr>
+        <tr>
+            <td> City</td>
+            <td > <input type="text" name="city" id="">
+               
+            </td>
+            <td> Pin Code</td>
+            <td> <input type="number" name="pin" id=""> </td>
+        </tr>
+        <tr>
+            <td> State</td>
+            <td > <input type="text" name="state" id="">
+               
+            </td>
+            <td> Country</td>
+            <td> <input type="text" name="country" id=""> </td>
+        </tr>
+    </table>
+    <br>
+
+     <table border="1" cellspacing="0px" cellpadding="2px" style="width: 100%;">
+        <colgroup>
+            <col style="width: 150px; align-items: center;">
+            <col style="width: 300px;">
+            <col style="width: 150px;">
+            <col style="width: 300px;">
+
+        </colgroup>
+        <tr>
+            <th colspan="4">Course Selection</th>
+            
+        </tr>
+        <tr>
+            <td> Program type</td>
+            <td> <select name="" id="">
+                <option>--Select Program--</option>
+                <option>Java</option>
+                <option>Javascript</option>
+              </select>
+           </td>
+            <td> Preferred Batch</td>
+            <td><select name="" id="">
+                <option>--Select Time--</option>
+                <option>Java</option>
+                <option>Javascript</option>
+              </select>
+            </td>
+        </tr>
+        <tr>
+            <td> Program type</td>
+            <td> <select name="" id="">
+                <option>--Select Program--</option>
+                <option>Java</option>
+                <option>Javascript</option>
+                </select>
+             </td>
+            <td> Mode</td>
+            <td> <input type="radio" name="gender" id="" checked><label>Classroom</label>
+                <input type="radio" name="gender" id=""><label>Online</label>
+                <input type="radio" name="gender" id=""><label>Hybrid</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Preferred Start Date</td>
+            <td> <input type="date" name="dte1" id=""> </td>
+            <td> Addiitional Module</td>
+            <td> <input type="checkbox" name="gender" id="" checked><label>Aptitude</label>
+                <input type="checkbox" name="gender" id=""><label>Soft Skills</label>
+                <input type="checkbox" name="gender" id=""><label>Placement Assistance</label>
+            </td>
+        </tr>
+    </table>
+    <br>
+     <table border="1" cellspacing="0px" cellpadding="2px" style="width: 100%;">
+        <colgroup>
+            <col style="width: 150px; align-items: center;">
+            <col style="width: 300px;">
+            <col style="width: 150px;">
+            <col style="width: 300px;">
+
+        </colgroup>
+        <tr>
+            <th colspan="4">Education & Background</th>
+            
+        </tr>
+        <tr>
+            <td> Highest Quilification</td>
+            <td> <select name="" id="">
+                <option>10 th</option>
+                <option>12 th</option>
+                <option>BTECH</option>
+            </select></td>
+            <td> Stream/Major</td>
+            <td><input type="text" name="name" placeholder="e.g,CSE,ECE,B.com"></td>
+        </tr>
+        <tr>
+            <td> Work Experience</td>
+            <td> <input type="number" name="work" id="" placeholder="0"> </td> 
+            <td> Known Skills</td>
+            <td> <input type="text" name="gender" id="" placeholder="e,g-HTML,CSS,Python">
+            </td>
+        </tr>
+        
+    </table>
+    <br>
+    <table border="1" cellspacing="0px" cellpadding="2px" style="width: 100%;">
+        <colgroup>
+            <col style="width: 150px; align-items: center;">
+            <col style="width: 300px;">
+            <col style="width: 150px;">
+            <col style="width: 300px;">
+
+        </colgroup>
+        <tr>
+            <th colspan="4">Payment Details</th>
+            
+        </tr>
+        <tr>
+            <td> Fee plan</td>
+            <td> <select name="" id="">
+                <option>Limp sum</option>
+                <option>1234</option>
+                <option>5678</option>
+            </select></td>
+            <td> Agreed Fee </td>
+            <td><input type="number" name="fee1" ></td>
+        </tr>
+        <tr>
+            <td> Payment Mode</td>
+            <td> <select name="" id="">
+                <option>Cash</option>
+                <option>Online</option>
+                <option>UPI</option>
+            </select></td> 
+            <td> Tax /ref No.</td>
+            <td> <input type="text" name="gender" id="" >
+            </td>
+        </tr>
+        
+    </table>
+    <br>
+    <table border="1" cellspacing="0px" cellpadding="2px" style="width: 100%;">
+        <colgroup>
+            <col style="width: 150px; align-items: center;">
+            <col style="width: 300px;">
+            <col style="width: 150px;">
+            <col style="width: 300px;">
+
+        </colgroup>
+        <tr>
+            <th colspan="4">Documents</th>
+            
+        </tr>
+        <tr>
+            <td> Passport Photo</td>
+            <td><input type="file" name="" id=""> </td>
+            <td> ID Proof</td>
+            <td><input type="file" name="" id=""> </td>
+        </tr>
+        
+        
+    </table>
+    <br>
+    <table border="1" cellspacing="0px" cellpadding="2px" style="width: 100%;">
+        <colgroup>
+            <col style="width: 150px; align-items: center;">
+            <col style="width: 300px;">
+            <col style="width: 150px;">
+            <col style="width: 300px;">
+
+        </colgroup>
+        <tr>
+            <th colspan="4">Terms and Conditions</th>
+            
+        </tr>
+        <tr>
+            <td style="width: 100%;"> <input type="checkbox"> <label style="width: 100%;"> I hereby declare that the information provided is true</label></td>
+            
+        </tr>
+        
+        
+    </table>
+    </form>
+    <br>
+    <button type="reset"> Clear</button> <button type="submit" style="float: right;">Submit Registration</button>
+
+    <h3>Available Courses</h3>
+    <table border="1" cellspacing="0px" cellpadding="2px" style="width: 100%;">
+        <colgroup>
+            <col style="width: 180px; align-items: center;">
+            <col style="width: 300px;">
+            <col style="width: 130px;">
+          
+
+        </colgroup>
+        <tr>
+            <th >Course</th>
+            <th >Duration</th>
+            <th >Approx.Fee</th>
+        </tr>
+        <tr>
+            <td> Full Stack Web(MERN)</td>
+            <td> 6 months</td>
+            <td> 45,000</td>
+            
+        </tr>
+        <tr>
+            <td> Java + Springboot</td>
+            <td> 5 months</td>
+            <td> 40,000</td>
+            
+        </tr>
+        <tr>
+            <td> Data Science & ML</td>
+            <td> 6 months</td>
+            <td> 60,000</td>
+            
+        </tr>
+        <tr>
+            <td> 
+                Cloud &DevOps(AWS)
+            </td>
+            <td> 4 months</td>
+            <td> 55,000</td>
+            
+        </tr>
+        
+    </table>
+</body>
+</html>
