@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- use 'value' attribute to give the color by using hexadecimal values -->
+      <input type="color" name="color" id="" value="#008000" />
+      <!-- multiple is an attribute used in input type 'file' that provides user to select multiple files -->
+      <input type="file" multiple name="files" />
+      <br />
+      <!-- Output is a tag used for showing result -->
+      <input
+        type="text"
+        placeholder="Enter a number n1"
+        name="n1"
+        value="10"
+      />+
+      <input
+        type="text"
+        placeholder="Enter a number n2"
+        name="n2"
+        value="20"
+      />=
+      <output>Result :30</output>
+      <!-- 'low' and 'high' attributes defines the range of a meter tag. Optimum means 'actual value'  -->
+      <meter
+        value="90"
+        min="5"
+        max="100"
+        low="30"
+        high="70"
+        optimum="100"
+      ></meter><br>
+      <progress value="80" max="100"></progress>
+    </form>
+  </body>
+</html>
