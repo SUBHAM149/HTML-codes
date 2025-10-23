@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---Ordered list-->
+    <h1>FRUITS:</h1>
+    <ol>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Banana</li>
+
+    </ol>
+    <ol type="A">
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Banana</li>
+    </ol>
+    <ol type="i">
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Banana</li>
+
+    </ol>
+    <ol type="I">
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Banana</li>
+
+    </ol>
+    <ol start="100">
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Banana</li>
+
+    </ol>
+    <ol type="a">
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Banana</li>
+
+    </ol>
+    ol*6>li*2{subham}
+
+  <!---Unordered list-->
+  !NOTE: ul and li tags used mostly in the creation of items or options in a NAVABAR
+  <h1>Groceries</h1>
+    <ul>
+        <li>Biscut</li>
+        <li>dal</li>
+        <li>pest</li>
+        <li>oil</li>
+        <li>paneer</li>
+        <li>cheese</li>
+    </ul>
+    <ul type="circle">
+        <li>Biscut</li>
+        <li>dal</li>
+        <li>pest</li>
+        <li>oil</li>
+        <li>paneer</li>
+        <li>cheese</li>
+    </ul>
+    <ul type="square">
+        <li>Biscut</li>
+        <li>dal</li>
+        <li>pest</li>
+        <li>oil</li>
+        <li>paneer</li>
+        <li>cheese</li>
+    </ul>
+   <ol>
+    <li type="A">Data 1</li>
+    <li type="1">Data 2</li>
+    <li type="I">Data 3</li>
+    <li>Data 4</li>
+   </ol>
+   <ol>
+    <li>SUBHAM</li>
+    <li>SUBHAM</li>
+    <li type="I">SUBHAM</li>
+    <li>SUBHAM</li>
+    <li type="a">subham</li>
+    <li type="i">subham</li>
+    <li type="I"></li>
+    <li>SUBHAM</li>
+    <li>SUBHAM</li>
+    <li>SUBHAM</li>
+   </ol>
+   <ol>
+    <ol>
+        <li>subham</li>
+        <li>subham</li>
+        <li>subham</li>
+        <li>subham</li>
+         <ul type="sqare">subham</ul>
+         <ul>subham</ul>
+         <ul>subham</ul>
+        <li>subham</li>
+        <li>subham</li>
+        <li>subham</li>
+        <li>subham</li>
+        <li>subham</li>
+        <li>subham</li>
+    </ol>
+   </ol>
+   <ol start="20">
+    <li>text</li>
+    <li type="A">text</li>
+    <li>TEXT</li>
+    <li>TEXT</li>
+    <li>TEXT</li>
+   </ol>
+   <!---Nested list--->
+   <ol type="I">
+    <li>FRONTED SKILLS:
+        <UL>
+            <LI>HTML</LI>
+            <LI>CSS</LI>
+            <LI>JS</LI>
+            <LI>REACT</LI>
+        </UL>
+    </li>
+    <li>BACKEND SKILLS:
+        <UL>
+            <LI>JAVAL</LI>
+            <LI>PYTHON</LI>
+            <LI>C</LI>
+            <LI>C++</LI>
+        </UL>
+    </li>
+    </ul>
+   </ol>
+</body>
+</html>
+Skip to main content
+Google ClassroomClassroom
+Java 51 .NET 36 HTML by shiva prakash sirHTML (11th AUGUST 2025)
+Material details
+HTML list and div tags
+Shivaprakash Patil
+•
+Yesterday
+4 HTML lists notes.txt
+Text
+4a Questions on HTML list.docx
+Microsoft Word
+4b Questions on HTML div tag.docx
+Microsoft Word
+divTag.html
+HTML
+htmlList.html
+HTML
+Class comments
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- ordered list -->
+    <h1>FRUITS :</h1>
+    <ol>
+      <li>Mango</li>
+      <li>Apple</li>
+      <li>Pineapple</li>
+      <li>Banana</li>
+    </ol>
+    <ol type="A">
+      <li>Mango</li>
+      <li>Apple</li>
+      <li>Pineapple</li>
+      <li>Banana</li>
+    </ol>
+    <ol type="a">
+      <li>Mango</li>
+      <li>Apple</li>
+      <li>Pineapple</li>
+      <li>Banana</li>
+    </ol>
+    <ol type="I">
+      <li>Mango</li>
+      <li>Apple</li>
+      <li>Pineapple</li>
+      <li>Banana</li>
+    </ol>
+    <ol type="i">
+      <li>Mango</li>
+      <li>Apple</li>
+      <li>Pineapple</li>
+      <li>Banana</li>
+    </ol>
+
+    <ol start="100">
+      <li>Mango</li>
+      <li>Apple</li>
+      <li>Pineapple</li>
+      <li>Banana</li>
+    </ol>
+
+    <!-- Zen coding for above code structure ol*6>li*4 -->
+
+    <!-- Unordered list
+     !NOTE : Ul and li tags used mostly in the creation of items or options in a NAVBAR
+      -->
+    <h1>Groceries :</h1>
+    <ul>
+      <li>Biscuit</li>
+      <li>oil</li>
+      <li>Rice</li>
+      <li>Sugar</li>
+      <li>Salt</li>
+    </ul>
+    <ul type="circle">
+      <li>Biscuit</li>
+      <li>oil</li>
+      <li>Rice</li>
+      <li>Sugar</li>
+      <li>Salt</li>
+    </ul>
+    <ul type="square">
+      <li>Biscuit</li>
+      <li>oil</li>
+      <li>Rice</li>
+      <li>Sugar</li>
+      <li>Salt</li>
+    </ul>
+
+    <ol>
+      <li type="A">data 1</li>
+      <li type="1">data 2</li>
+      <li type="I">data 3</li>
+      <li>data 4</li>
+    </ol>
+
+    <ol>
+      <li>text</li>
+      <li>text</li>
+      <li type="I">text</li>
+      <li>text</li>
+      <li>text</li>
+      <li type="A">text</li>
+      <li>text</li>
+      <li>text</li>
+      <li type="a">text</li>
+      <li>text</li>
+    </ol>
+    <ol>
+      <li>text</li>
+      <li>text</li>
+      <li type="I">text</li>
+      <ul>
+        <li>data</li>
+        <li type="circle">data</li>
+        <li>data</li>
+      </ul>
+      <li>text</li>
+      <li>text</li>
+      <li type="A">text</li>
+      <li>text</li>
+    </ol>
+    <ol start="20">
+      <li>texdsfxghjklt</li>
+      <li>text</li>
+      <li>text</li>
+      <li type="A">text</li>
+      <li>text</li>
+      <li>text</li>
+    </ol>
+    <ol start="30">
+      <li>texdsfxghjklt</li>
+      <li>text</li>
+      <li>text</li>
+      <li type="A">text</li>
+      <li>text</li>
+      <li>text</li>
+    </ol>
+
+    <ol start="47">
+      <li>DATA</li>
+      <li>DATA</li>
+      <li>DATA</li>
+      <li type="A">DATA</li>
+      <li>DATA</li>
+      <li>DATA</li>
+    </ol>
+
+    <!-- Nested Lists -->
+    <ol type="I">
+      <li>
+        FRONTEND SKILLS:
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>React</li>
+        </ul>
+      </li>
+      <li>
+        BACKEND SKILLS:
+        <ul>
+          <li>JAVA</li>
+          <li>PYTHON</li>
+          <li>JS</li>
+          <li>C#</li>
+        </ul>
+      </li>
+    </ol>
+  </body>
+</html>
+
+htmlList.html
+Displaying htmlList.html.
