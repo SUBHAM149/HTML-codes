@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---External link-->
+    <a href="https://www.youtube.com/"target="_blank">youtube</a>
+    <a href="#">login</a>
+    <!--Internal link-->
+    <a href="http://127.0.0.1:5500/class_13_8/htmlimage.html">image page</a>
+    <a href="#footerdiv">FOOTER</a>  
+</body>
+</html>
