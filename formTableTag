@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form and table</title>
+  </head>
+  <body>
+    <form action="">
+      <table border="1">
+        <tr>
+          <td>USERNAME</td>
+          <td><input type="text" placeholder="Enter Name" name="user" /></td>
+        </tr>
+        <tr>
+          <td>Enter password</td>
+          <td>
+            <input
+              type="password"
+              name="pwd"
+              id=""
+              placeholder="Enter Password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Confirm Password</td>
+          <td>
+            <input
+              type="password"
+              name="pwd1"
+              id=""
+              placeholder="Confirm password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td>
+            <input type="number" placeholder="Enter age" min="20" />
+          </td>
+        </tr>
+        <tr>
+          <td>DOB</td>
+          <td>
+            <input type="date" name="date" id="" />
+          </td>
+        </tr>
+        <tr>
+          <td>Phone number</td>
+          <td>
+            <input type="tel" name="ph" id="" placeholder="Enter your number" />
+          </td>
+        </tr>
+        <tr>
+          <td>Profile pic</td>
+          <td>
+            <input type="image" src="../Assets/Images/krishna photo.jpeg" alt="" />
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" id="" />Male
+            <input type="radio" name="gender" id="" />Female
+          </td>
+        </tr>
+        <tr>
+          <td>Courses:</td>
+          <td>
+            <input type="checkbox" name="Java" id="" />Java
+            <input type="checkbox" name="JavaScript" id="" />JavaScript
+            <input type="checkbox" name="Python" id="" />Python
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button style="width: 100%;"> SIGN-UP</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
